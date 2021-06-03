@@ -9,26 +9,32 @@
 
     </head> 
     <body>
-        <div id="addition">
-            <input type="text" class="num1"/>
-            +
-            <input type="text" class="num2"/>
-            <button onclick="add()" class="result">=</button>
-        </div>
+        <h1 class="header">Javascript Calculator</h1>
+        <section class="container">
+            <div class="calculate">
+                <h2>addition</h2>
+                <input class="box" type="text" id="num1"> +
+                <input class="box" type="text" id="num2">
+                <button onclick="add()" id="added" value= "=">=</button>
+                <h3 id="equals1"></h3>
+            </div>
         
-        <div id="subtraction">
-            <input type="text" id="num3"/>
-            -
-            <input type="text" id="num4"/>
-            <button onclick="subtract()" class="result">=</button>
-        </div>
+            <div class="calculate">
+                <h2>subtraction</h2>
+                <input class="box"type="text" id="num3"> -
+                <input class="box"type="text" id="num4">
+                <button onclick="subtract()" id="subtracted" value="=">=</button>
+                <h3 id="equals2"></h3>
+            </div>
         
-        <div id="multiplication">
-            <input type="text" id="num5"/>
-            x
-            <input type="text" id="num6"/>
-            <button onclick="multiply()" class="result">=</button>
-        </div>
+            <div class="calculate">
+                <h2>multiplication</h2>
+                <input class="box"type="text" id="num5"> x
+                <input class="box"type="text" id="num6">
+                <button onclick="multiply()" id="multiplied" value="=">=</button>
+                <h3 id="equals3"></h3>
+            </div>
+        </section>
         
         <footer></footer>
     </body>

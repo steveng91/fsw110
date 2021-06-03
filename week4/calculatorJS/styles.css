@@ -1,0 +1,24 @@
+.header{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border: 10px solid red;
+}
+.container{
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+.calculate{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.box{
+    padding-inline: 20px;
+}
+body{
+    background-image: linear-gradient(to right, lightblue, royalblue, blue);
+}
