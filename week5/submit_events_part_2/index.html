@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" href="styles.css"/>
+        <script src="index.js" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <form id="myForm">
+            <input type="text" name="fname" placeholder="First Name" required><br>
+            <input type="text" name="lname" placeholder="Last Name" required><br>
+            <input type="number" name="age" placeholder="Age" required><br>
+            Have you owned an RV before?<br> 
+            Yes:<input type="radio" name="decision" value="yes">
+            No: <input type="radio" name="decision" value="no"><br>
+            What type of RV have you owned?<br>
+            <input type="checkbox" name="none" value="none">none<br>
+            <input type="checkbox" name="class A" value="class A">Class A<br>
+            <input type="checkbox" name="class B" value="class B">Class B<br>
+            <input type="checkbox" name="class C" value="class C">Class C<br>
+            Did you enjoy your experience with us? <br>
+            <input type="checkbox" class="survey" name="sat" value="1" onclick="checkmark">Completely Satisfied<br>
+            <input type="checkbox" class="survey" name="sat" value="2" onclick="checkmark"> Somewhat Satisfied<br>
+            <input type="checkbox" class="survey" name="sat" value="3" onclick="checkmark">Indifferent<br>
+            <input type="checkbox" class="survey" name="sat" value="4" onclick="checkmark">Somewhat Unsatisfied<br>
+            <input type="checkbox" class="survey" name="sat" value="5" onclick="checkmark">Completely Unsatisfied<br>
+            <button id="submit">submit</button>
+
+
+        </form>
+        <footer></footer>
+    </body>
+</html>
